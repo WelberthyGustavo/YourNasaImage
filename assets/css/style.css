@@ -1,16 +1,18 @@
 
+
 /*fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Exo+2:wght@200;300;400&family=Jost:wght@300&family=Major+Mono+Display&family=Nunito:ital,wght@0,200;0,300;1,200;1,300&family=Raleway:ital,wght@0,300;1,300&display=swap');
-* {
+
+* , html{
     margin: 0;
     padding: 0;
 }
 
-body {
+body{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: black;
     overflow: hidden;
 }
@@ -35,11 +37,11 @@ header {
 }
 
 #logoContainer {
-    width: 5vh; /* Ajuste o tamanho do contêiner conforme necessário */
-    height: 5vh; /* Ajuste o tamanho do contêiner conforme necessário */
+    width: 5vh; 
+    height: 5vh; 
     display: flex;
     justify-content: center;
-    align-items: center;/* Define uma cor de fundo para o contêiner */
+    align-items: center;
     background: #e0e0e0;
     box-shadow:  15px 15px 53px #000000,
                 -15px -15px 53px #000000;
@@ -49,18 +51,11 @@ header {
 
 #logo img{
     width: 10vh;
-    pointer-events: none; /* Desativa eventos do mouse (clicar, arrastar, etc.) */
-    user-drag: none; /* Desativa o recurso de arrastar a imagem no Safari */
+    pointer-events: none;
+    user-drag: none; 
     -webkit-user-drag: none;
 }
 
-#nasaDiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-}
 
 #imageNasa {
     object-fit: cover;
@@ -70,8 +65,8 @@ header {
     position: absolute;
     z-index: -1;
     filter: brightness(45%);
-    pointer-events: none; /* Desativa eventos do mouse (clicar, arrastar, etc.) */
-    user-drag: none; /* Desativa o recurso de arrastar a imagem no Safari */
+    pointer-events: none; 
+    user-drag: none; 
     -webkit-user-drag: none;
 }
 
@@ -80,7 +75,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 70vh;
+    height: 60vh;
     margin: 40px auto;
 }
 
@@ -89,12 +84,12 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
     height: inherit;
+    width: 90%;
 }
 
 #titleNasa {
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
     font-family: 'Exo 2', sans-serif;
     color: #ffffff;
@@ -113,7 +108,7 @@ main {
 
 
 #dateNasa{
-    font-size: 3vh;
+    font-size: 20px;
     font-family: 'Major Mono Display', monospace;
     font-weight: bold;
     color: #ffffff;
