@@ -1,0 +1,147 @@
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Exo+2:wght@200;300;400&family=Jost:wght@300&family=Major+Mono+Display&family=Nunito:ital,wght@0,200;0,300;1,200;1,300&family=Raleway:ital,wght@0,300;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    color: white;
+}
+
+#logoContainer {
+    width: 5vh; /* Ajuste o tamanho do contêiner conforme necessário */
+    height: 5vh; /* Ajuste o tamanho do contêiner conforme necessário */
+    display: flex;
+    justify-content: center;
+    align-items: center;/* Define uma cor de fundo para o contêiner */
+    background: #e0e0e0;
+    box-shadow:  15px 15px 53px #000000,
+                -15px -15px 53px #000000;
+    border-radius: 50%;
+}
+
+
+#logo img{
+    width: 10vh;
+    pointer-events: none; /* Desativa eventos do mouse (clicar, arrastar, etc.) */
+    user-drag: none; /* Desativa o recurso de arrastar a imagem no Safari */
+    -webkit-user-drag: none;
+}
+
+#nasaDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#imageNasa {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(45%);
+    pointer-events: none; /* Desativa eventos do mouse (clicar, arrastar, etc.) */
+    user-drag: none; /* Desativa o recurso de arrastar a imagem no Safari */
+    -webkit-user-drag: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    margin: 40px auto;
+}
+
+#nasaDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: inherit;
+}
+
+#titleNasa {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    color: #ffffff;
+}
+
+#textNasa {
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    height: 30vh;
+    width: auto;
+    overflow-y: auto;
+    margin: 10px;
+}
+
+
+#dateNasa{
+    font-size: 3vh;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 9px;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    bottom: 0px;
+    position: fixed;
+    height: 5vh;
+    width: 100%;
+}
+
+footer p, a, span{
+    font-size: 15px;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
+    
+}
+
+

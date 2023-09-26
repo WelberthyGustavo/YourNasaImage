@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourNasaImage</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/nasa-logo.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <div id="logoContainer">
+                <img src="./assets/img/nasa-logo.svg" alt="">
+            </div>
+            
+        </div>
+    </header>
+    <main>
+        <div id="nasaDiv">
+            <img id="imageNasa" src="" alt="">
+            <h1 id="titleNasa">NASA</h1>
+            <p id="textNasa">Nothing to see Still</p>
+            <input type="date" name="date" id="dateNasa">
+        </div>
+    </main>
+    <footer>
+        <a href="https://www.instagram.com/gustavo_code/" target="_blank" rel="">Welberthy Gustavo &copy;</a><span id="year"> </span></p>
+    </footer>
+    <script type="module" src="./assets/js/script.js"></script>
+    <script>
+        const yearElement = document.getElementById("year");
+        const currentYear = new Date().getFullYear();
+        yearElement.textContent = currentYear;
+    </script>
+
+</body>
+</html>

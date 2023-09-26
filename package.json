@@ -1,0 +1,12 @@
+{
+  "name": "nasaphotos",
+  "version": "1.0.0",
+  "description": "Photos from nasa",
+  "main": "./assets/js/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Welberthy Gustavo",
+  "license": "ISC",
+  "type": "module"
+}
