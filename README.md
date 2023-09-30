@@ -8,17 +8,17 @@ This is a web project that utilizes the NASA API to display the Astronomy Pictur
 
 ## Features
 
-- Displays NASA's Astronomy Picture of the Day.
-- Provides a brief description of the image.
-- Allows users to view images from previous dates using a date selector.
-- Offers detailed information about the image when clicked.
-- **Space Emojis!** 🚀🌌🌠
+- Displays NASA's Astronomy Picture of the Day. 🌠
+- Provides a brief description of the image. 🚀
+- Allows users to view images with information from previous dates using a date selector. 🌌
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 1](https://raw.githubusercontent.com/WelberthyGustavo/YourNasaImage/master/ScreenshotNasaOne.png)
 
-![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 2](https://raw.githubusercontent.com/WelberthyGustavo/YourNasaImage/master/ScreenshotNasaTwo.png)
+
+![Screenshot 3](https://raw.githubusercontent.com/WelberthyGustavo/YourNasaImage/master/ScreenshotNasaThree.png)
 
 ## Project Link
 
