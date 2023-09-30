@@ -50,7 +50,7 @@ If you want to contribute to the project, follow these steps:
 2. Clone the forked repository to your local machine.
 
 ```bash
-git clone https://github.com/your-username/your-fork.git
+git clone https://github.com/WelberthyGustavo/YourNasaImage
 ```
 
 ## Acknowledgments
