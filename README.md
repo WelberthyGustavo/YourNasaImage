@@ -1,6 +1,6 @@
 # Your NASA Image - Project
 
-![NASA Logo](https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png)
+![NASA Logo](https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg)
 
 ## Overview
 
