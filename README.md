@@ -14,11 +14,11 @@ This is a web project that utilizes the NASA API to display the Astronomy Pictur
 
 ## Screenshots
 
-![Screenshot 1](https://raw.githubusercontent.com/WelberthyGustavo/YourNasaImage/master/ScreenshotNasaOne.png)
+![Screenshot 1](/ScreenshotNasaOne.png)
 
-![Screenshot 2](https://raw.githubusercontent.com/WelberthyGustavo/YourNasaImage/master/ScreenshotNasaTwo.png)
+![Screenshot 2](/ScreenshotNasaTwo.png)
 
-![Screenshot 3](https://raw.githubusercontent.com/WelberthyGustavo/YourNasaImage/master/ScreenshotNasaThree.png)
+![Screenshot 3](/ScreenshotNasaThree.png)
 
 ## Project Link
 
