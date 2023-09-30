@@ -39,7 +39,7 @@ function verifyDate() {
 
 /* Get image of the actual day */
 function nasaOfTheDay(){
-  document.getElementById("dateNasa").value = newDate;;
+  document.getElementById("dateNasa").value = newDate;
   if (nasaSearch(newDate)){
     nasaSearch(newDate);
   }else {
